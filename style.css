@@ -1,0 +1,202 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.hero > img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.list li {
+  list-style: none;
+  width: 830px;
+  height: 40px;
+  background-color: #222;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list li p {
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.container {
+  width: 1440px;
+  height: 100vh;
+  background-color: #2c2c2c;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.hero {
+  width: 100%;
+  height: 170px;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  box-sizing: content-box;
+}
+
+.todo {
+  width: 36%;
+  height: 18%;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.todo p {
+  font-family: "Racing Sans One", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  color: #ffffff;
+  position: relative;
+}
+
+.todo p::before {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  right: 110%;
+  top: 60%;
+}
+
+.todo p::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: 110%;
+  top: 60%;
+}
+
+.icon-div {
+  /* border: 1px solid red; */
+  width: 100px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.icon-div::after {
+  content: " ";
+  width: 300px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: 29%;
+}
+
+.icon-div::before {
+  content: " ";
+  width: 300px;
+  height: 2px;
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  left: 56%;
+}
+
+#add-input {
+  width: 800px;
+  height: 50px;
+  background-color: #d9d9d9;
+  border-radius: 20px;
+}
+
+.newFolder {
+  width: 150px;
+  height: 30px;
+  background-color: white;
+  color: blue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 20px;
+}
+.newFolder img {
+  width: 20px;
+  height: 20px;
+}
+
+.newFolder p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.add-task {
+  width: 100px;
+  height: 50px;
+  background-color: #4f4f4f;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 0;
+}
+
+.add-task p {
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.list {
+  box-sizing: content-box;
+}
+
+.but-in {
+  width: 800px;
+  height: 80px;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 80px;
+}
+
+.list .lies {
+  width: 800px;
+  height: 40px;
+}
+
+.del {
+  cursor: pointer;
+}
+
+.add-task {
+  cursor: pointer;
+}
